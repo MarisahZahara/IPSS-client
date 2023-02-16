@@ -1,0 +1,119 @@
+.login {
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  background-image: url('/images/bg-ipsos.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+
+  &_card {
+    background-color: #f7fbfd;
+    // border: solid #f7fbfd;
+    border: solid #a2d6ef;
+  }
+
+  &_logo-image {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &_forgot-psw {
+    text-align: center;
+  }
+
+  &_button-login {
+    text-align: center;
+  }
+
+  .site-form-item-icon {
+    color: #1484bd !important;
+  }
+}
+
+.ant-input-affix-wrapper {
+  border-color: #95d2ee;
+}
+
+
+.otp-modal .ant-btn {
+  margin-right: 125px;
+  width: 200px;
+  background-color: #1484bd;
+  border: 0px;
+}
+
+.otp-modal .ant-btn:hover {
+  background-color: #0e6ba8;
+}
+
+.otp-modal {
+  .ant-modal-content {
+    border-radius: 10px;
+  }
+  .ant-modal-footer {
+    padding: 0px 16px 20px 16px;
+    text-align: right;
+    background: transparent;
+    border-top: 1px solid #f0f0f0;
+    border-radius: 0 0 2px 2px;
+  }
+
+  .ant-modal-body {
+    padding: 24px 24px 0px 24px;
+    font-size: 14px;
+    // line-height: 1.5715;
+    word-wrap: break-word;
+  }
+
+  .ant-btn {
+    border-radius: 4px;
+  }
+
+  .otp-modal-div {
+    border-radius: 20px;
+    justify-content: center;
+    justify-self: center;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+}
+
+.otp-title {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 15px;
+}
+
+.otp-info {
+  text-align: center;
+
+  font-weight: normal;
+  color: #8f8f8f;
+  margin-bottom: 20px;
+}
+
+.otp-resend-info-text {
+  margin-top: 0px;
+  color: #8f8f8f;
+  font-weight: normal;
+}
+
+.otp-input {
+  margin: 10px 0 0px 0;
+  justify-content: center;
+}
+.otp-input-box {
+  width: 60px !important;
+  height: 60px !important;
+  text-align: center !important;
+  margin-right: 10px !important;
+  margin-left: 10px !important;
+  border-radius: 8px !important;
+  font-size: 40px !important;
+  padding-bottom: 4px !important;
+  border-color: rgb(219, 219, 219) !important;
+}
